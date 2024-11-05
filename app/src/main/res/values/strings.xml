@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">تحميل فيديوهات من تيك توك</string>
+    <string name="title_download">Download</string>
+    <string name="title_files">Play</string>
+
+    <string name="downloader_for_tiktok">Downloader for TikTok</string>
+    <string name="content_description_end_icon">the url of video that would be downloaded</string>
+    <string name="video_url">Video Url</string>
+    <string name="tiktok_downloader">TikTok Downloader</string>
+    <string name="https_www_tiktok_com_z">https://www.tiktok.com/@z....</string>
+    <string name="choose_download_option">Choose Download Option</string>
+    <string name="music">Music</string>
+    <string name="video">Video</string>
+    <string name="img_profile">Image Profile</string>
+    <string name="download_audio_mp3">Download Audio ( Mp3 )</string>
+    <string name="download_original_video">Download Original Video</string>
+    <string name="download_hd_video">Download Video HD</string>
+    <string name="media_permission">Media Permission</string>
+    <string name="please_allow_media_permission_to_continue">Please allow media permission to continue…</string>
+    <string name="clear_text">clear the input text</string>
+    <string name="download">Download</string>
+    <string name="paste">Paste</string>
+    <string name="fetching_link_please_wait_it_takes_some_seconds">fetching link, please wait it takes some second...</string>
+    <string name="folder">the folder</string>
+    <string name="videos">Videos</string>
+    <string name="_1">1</string>
+    <string name="textview">Vedio Name</string>
+    <string name="_11_mb_0_34">11 mb</string>
+    <string name="nothing_found">Nothing found.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">Share</string>
+    <string name="view">View</string>
+    <string name="no_items_found">No Items Found</string>
+    <string name="back">return back</string>
+    <string name="tiktok_video_downloader">TikTok Video Downloader</string>
+</resources>

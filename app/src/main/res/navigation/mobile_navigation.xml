@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_download">
+
+
+    <fragment
+        android:id="@+id/navigation_download"
+        android:name="com.zeyad.tiktokdownloader.ui.fragments.download.DownloadFragment"
+        android:label="fragment_download"
+        tools:layout="@layout/fragment_download" >
+        <action
+            android:id="@+id/action_navigation_download_to_navigation_files"
+            app:destination="@id/navigation_files" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_files"
+        android:name="com.zeyad.tiktokdownloader.ui.fragments.files.FilesFragment"
+        android:label="fragment_files"
+        tools:layout="@layout/fragment_files" >
+        <action
+            android:id="@+id/action_navigation_files_to_mediaFragment"
+            app:destination="@id/mediaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mediaFragment"
+        android:name="com.zeyad.tiktokdownloader.ui.fragments.MediaFragment"
+        android:label="fragment_media"
+        tools:layout="@layout/fragment_media" />
+
+</navigation>
